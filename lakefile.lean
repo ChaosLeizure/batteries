@@ -21,4 +21,4 @@ lean_exe runLinter where
   supportInterpreter := true
 
 meta if get_config? doc = some "on" then
-require «doc-gen4» from git "https://github.com/leanprover/doc-gen4" @ "main"
+require «doc-gen4» from git "https://github.com/ChaosLeizure/doc-gen4" @ "6d8e3118ab526f8dfcabcbdf9f05dc34e5c423a8"
